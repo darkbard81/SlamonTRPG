@@ -108,6 +108,14 @@
 - 특수 합금(Adamantine, Cold Iron 등) 주문 제작 가능
 - Rune 부여/전이/제거 제공
 - Crafting + Tools + Downtime 이용가능
+
+### 빛결의 정원
+
+- 셰일린(Shelyn)을 모시는 신전
+- 여성 아시마르(Aasimar: Angelkin Lineage) 주교 루미에르
+- 루미에르의 날개 때문에 이를 보고자 하는 사람들로 문전성시를 이룬다.
+- 기본적인 신전 서비스 제공
+- 연애상담/결혼식/예술치료 장소로도 유명
   
 ---
 
