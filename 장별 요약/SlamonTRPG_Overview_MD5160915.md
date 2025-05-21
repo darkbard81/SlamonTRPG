@@ -103,7 +103,7 @@
 
 ### 무한의 검제
 
-- 여성 드워프 장인 쟈드니(Blracksmith)와 여성 엘프 릴라에(Inventor)가 운영한다.
+- 여성 드워프 장인 쟈드니(Fighter)와 여성 엘프 릴라에(Inventor)가 운영한다.
 - 전통적인 강철 무기/방어구 위주
 - 특수 합금(Adamantine, Cold Iron 등) 주문 제작 가능
 - Rune 부여/전이/제거 제공
@@ -112,7 +112,7 @@
 ### 빛결의 정원
 
 - 셰일린(Shelyn)을 모시는 신전
-- 여성 아시마르(Aasimar: Angelkin Lineage) 주교 루미에르
+- 여성 아시마르(Aasimar: Angelkin Lineage, Cleric) 주교 루미에르
 - 루미에르의 날개 때문에 이를 보고자 하는 사람들로 문전성시를 이룬다.
 - 기본적인 신전 서비스 제공
 - 연애상담/결혼식/예술치료 장소로도 유명
