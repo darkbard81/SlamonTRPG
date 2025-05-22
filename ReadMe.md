@@ -19,6 +19,17 @@
 - 그 외 인터넷상의 비공식 출처는 룰로 간주하지 않습니다.
 
 ## 5. 프로젝트 파일 역할 정의
-
-- `SlamonTRPG_Weapon.md`  
-  → 이 파일은 캠페인에서 사용되는 **무기 설정 문서**로, 각 캐릭터의 장비 가능 무기, 속성, 특수 효과 등을 정의한다.
+- `SlamonTRPG_DM_Rule.md`
+  → **기본 규칙 문서**
+- `SlamonTRPG_Overview.md`
+  → **세계관 문서**
+- `CharacterSheet_Kitty.md`
+  → **키티 캐릭터 시트**
+- `CharacterSheet_Lavie.md`
+  → **라비에 캐릭터 시트**
+- `CharacterSheet_Slamon.md`
+  → **슬라몬 캐릭터 시트**
+- `SlamonTRPG_Appearance.md`
+  → **캐릭터 외모 문서****
+- `SlamonTRPG_Continuity.md`
+  → **세션 연속성 문서**
