@@ -30,6 +30,6 @@
 - `CharacterSheet_Slamon.md`
   → **슬라몬 캐릭터 시트**
 - `SlamonTRPG_Appearance.md`
-  → **캐릭터 외모 문서****
+  → **캐릭터 외모 문서**
 - `SlamonTRPG_Continuity.md`
   → **세션 연속성 문서**
