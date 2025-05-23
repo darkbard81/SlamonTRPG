@@ -25,6 +25,8 @@
   → **라비에 캐릭터 시트**
 - `CharacterSheet_Slamon.md`
   → **슬라몬 캐릭터 시트**
+- `CharacterSheet_Laviata.md`
+  → **라비아타 프로토타입 캐릭터 시트**
 - `SlamonTRPG_Appearance.md`
   → **캐릭터 외모 문서**
 - `SlamonTRPG_Continuity.md`
