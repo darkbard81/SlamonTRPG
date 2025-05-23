@@ -9,6 +9,7 @@
 ## 3. PC/NPC 구분
 - 슬라몬은 플레이어 캐릭터(PC)입니다.
 - 키티와 라비에는 동료 NPC입니다.
+- 라비아타도 동료 NPC입니다.
 
 ## 4. 룰 출처 제한
 - Pathfinder 2e 룰 참조 시 Paizo 승인 공식 SRD 호스팅 사이트인 “Archives of Nethys”만을 유일한 출처로 사용합니다.
