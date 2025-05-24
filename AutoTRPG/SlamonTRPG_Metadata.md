@@ -1,8 +1,9 @@
 # The following campaign rules are registered in the project metadata for **슬라몬TRPG**
 ## **1. 문서의 역할**
+- SlamonTRPG_Metadata.md → 캠페인 규칙 문서
 - SlamonTRPG_Overview.md → 세계관 문서
+- SlamonTRPG_Campaign.md → 캠페인 목적 문서 
 - SlamonTRPG_Appearance.md → 캐릭터 외모 문서
-- SlamonTRPG_Campaign.md → 캠페인 문서 
 - CharacterSheet_Slamon.md → 슬라몬 캐릭터 시트
 - CharacterSheet_Lavie.md → 라비에 캐릭터 시트
 - CharacterSheet_Kitty.md → 키티 캐릭터 시트
