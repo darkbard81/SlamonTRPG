@@ -2,7 +2,14 @@
 
 ## 📜 규칙의 추가 및 변경 사항
 
-* (예시) 추후 특별 룰 또는 예외 적용 시 기재
+* 정규표현식을 사용할 때는 다음을 반드시 준수한다:
+
+  * 백참조는 항상 두 번 이스케이프한 형태로 쓸 것 (예: `\\1`, `\\2` 등).
+  * `\\x`, `\\u` 형식은 제어문자로 오인될 수 있으므로 사용 금지.
+  * 숫자, 아이템, 이름 등 일부만 치환할 땐 해당 항목만 정확히 정규식으로 선택할 것.
+  * 문서 내 제어 문자 삽입 방지를 위해 `[\\x00-\\x1F\\x7F]` 범위 문자 제거를 정기적으로 수행할 것.
+
+* 현재 없음 (추후 특별 룰 또는 예외 적용 시 기재)
 
 ---
 
@@ -31,7 +38,7 @@
 ### 🦊 라비에 (Cleric LV.3)
 
 * **주요 피트**: Healing Hands, Emblazon Armament, Domain Initiate (Art)
-* **시전 계열**: Divine (Prepared), Healing Font 보유, 2레벨 주문까지 가능
+* **시전 계열**: Divine (Prepared), Healing Font 보유, 2레벨 주문까지 시전 가능
 * **공격 굴림**: Glaive +9 (STR +1, Trained)
 * **저항 내성**: Fort +6, Reflex +6, Will +10
 * **주요 스킬**: Religion +10, Medicine +10, Perception +10, Diplomacy +7, Scribing Lore +7, Deception +7
@@ -41,7 +48,7 @@
 
 * **주요 피트**: Raging Intimidation, Sudden Charge, Titan Wrestler
 * **분노 효과**: 피해 +6, AC +1, HP +6
-* **공격 굴림**: Greatsword +11 (STR 4, Trained)
+* **공격 굴림**: Greatsword +11 (STR +4, Trained)
 * **저항 내성**: Fort +9, Reflex +7, Will +6
 * **주요 스킬**: Athletics +11, Intimidation +7, Survival +6, Crafting +6, Perception +6
 * **특이사항**: Nanite Surge (1일 1회 +2 보너스), 위협적 전투 스타일 + 돌진형 전개
@@ -52,19 +59,23 @@
 
 ### 🧠 슬라몬
 
-* Rapier, Dagger, Leather Armor, Spellbook, Component Pouch, Adventurer’s Pack, Healing Potion (Minor), Ledger, 무역품 견본 상자, 15gp
+* Rapier, Dagger, Leather Armor, Spellbook, Component Pouch, Adventurer’s Pack, Healing Potion (Minor), Ledger, 무역품 견본 상자, 11gp
+* **구매 추가**: 건조식 3일분, 정제 식수 키트, 마법 진공 팩
 
 ### 🐱 키티
 
-* Dagger x3, Leather Armor, Thieves’ Tools, Adventurer’s Pack, 10sp
+* Dagger ×3, Leather Armor, Thieves’ Tools, Adventurer’s Pack, 10sp, Healing Potion (Minor)
+* **구매 추가**: 건조식 3일분
 
 ### 🦊 라비에
 
 * Glaive, Scale Mail, Wooden Shield, Holy Symbol, Healer’s Tools, Adventurer’s Pack, Prayer Book, 10sp
+* **구매 추가**: 건조식 3일분
 
 ### 🤖 라비아타
 
-* Greatsword, Hide Armor, Adventurer’s Pack, Healer’s Tools, 기타 RP 장비
+* Greatsword, Hide Armor, Adventurer’s Pack, Healer’s Tools, 기타 RP 장비, 9gp
+* **구매 추가**: 건조식 3일분, 수비자의 배지 (Defender’s Badge)
 
 ---
 
@@ -102,25 +113,13 @@
 
 ## 📚 에피소드 요약 및 주요 사건
 
-### 에피소드 1: 패스포트의 그림자
+### 에피소드 1: "패스포트의 그림자"
 
-* **무대**: 교역도시 패스포트 및 외곽 지역
-* **목표**: 길드 가입 및 프론티어 접근허가증 획득
-* **주요 인물**: 릴리샤, 루미에르, 도미닉
-* **주요 사건**: 경쟁 파티와 충돌, 라비에의 신원 관련 갈등 노출
-
-### 에피소드 2: 심연으로의 첫걸음
-
-* **무대**: 무한의 프론티어 1층 – 붕괴된 황금 도시
-* **목표**: 워프마커 동기화, 첫 탐사 보고
-* **주요 적**: 자동 방어 장치, 잊혀진 수호자 언데드
-* **주요 사건**: 첫 사망자 목격, 언어를 쓰는 미지 존재와의 접촉
-
-### 에피소드 3: 은빛 여우와 망각의 사슬
-
-* **무대**: 셰일린 성단 내부, 성직자 회랑
-* **목표**: 라비에의 고위 성직자와 접견, 계시 내용 탐문
-* **주요 사건**: 이단 심문 가능성 대두, 감정적 갈등과 과거 회상
+* **무대**: 교역도시 패스포트 – 임시 숙소, 북구역 시장 거리, 푸크들의 향기
+* **주요 목표**: 길드 가입 및 프론티어 접근허가증 획득 준비, 보급 활동
+* **주요 NPC**: 푸크미, 푸크유 (하플링 자매 – 식량 상인)
+* **갈등 요소**: 파티 내 개인 목표의 첫 발현, 감정 회로 초기 반응(라비아타), 키티의 주거지 탐색 희망
+* **진행 요약**: 파티는 잠에서 깨어나 아침 식사를 마치고 도시 북구역으로 이동. 푸크 자매의 도움을 받아 3일치 식량과 정제 키트를 구비함. 본격적인 탐험 전 준비 단계를 마치고 다음 행동을 결정하는 시점.: 주요 목표, 갈등 요소, 감정 연계 등
 
 ---
 
@@ -128,9 +127,9 @@
 
 ### 🧠 슬라몬 (Magus)
 
-* **주요 사용형 피트**:
+* **사용형 피트**:
 
-  * Runic Impression – 1분 지속, 무기에 룬 효과 부여 (1/day)
+  * Runic Impression – 1분간 무기에 룬 효과 부여 (1일 1회)
 * **주요 주문 목록**:
 
   * Cantrips: *Electric Arc*, *Shield*, *Detect Magic*, *Mage Hand*, *Prestidigitation*
@@ -139,18 +138,18 @@
 
 ### 🐱 키티 (Rogue)
 
-* **주요 사용형 피트**:
+* **사용형 피트**:
 
   * Nimble Dodge – 반응 시 AC +2 (1/턴)
-  * Trap Finder – 탐지 범위 내 자동 감지, 피해 감소 (항상 활성)
+  * Trap Finder – 탐지 범위 내 자동 감지 및 피해 감소 (항상 활성화)
 
 ### 🦊 라비에 (Cleric)
 
-* **주요 사용형 피트**:
+* **사용형 피트**:
 
-  * Emblazon Armament – 무기/방패에 신성 문양 부여 (1일 1회, 지속시간 1일)
-  * Healing Font – *Heal* 주문 3회 추가 시전 가능 (매일 회복)
-  * Domain Spell (*Art*): *Inspired Stratagem* (1/day)
+  * Emblazon Armament – 무기/방패에 신성 문양 부여 (1일 1회, 지속 1일)
+  * Healing Font – *Heal* 주문 3회 추가 시전 가능 (매일 회복됨)
+  * Domain Spell (*Art*): *Inspired Stratagem* (1일 1회)
 * **주요 주문 목록**:
 
   * Cantrips: *Heal*, *Shield*, *Light*, *Divine Lance*, *Detect Magic*
@@ -159,13 +158,13 @@
 
 ### 🤖 라비아타 (Barbarian)
 
-* **주요 사용형 피트**:
+* **사용형 피트**:
 
-  * Nanite Surge – 공격/내성/AC +2 (1일 1회, Free Action)
+  * Nanite Surge – 공격/내성/AC에 +2 보너스 (1일 1회, 자유 행동)
   * Sudden Charge – 2액션으로 이동 + 공격
-* **기본 Rage 효과**:
+* **Rage 효과**:
 
-  * 피해 +6, HP +6, AC +1, 지속 1분 (1회/Encounter, Free Action)
+  * 피해 +6, HP +6, AC +1, 지속 1분 (전투당 1회, 자유 행동)
 
 ---
 
