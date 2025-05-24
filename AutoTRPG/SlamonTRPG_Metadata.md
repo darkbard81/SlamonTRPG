@@ -10,6 +10,8 @@
 - CharacterSheet_Kitty.md → 키티 캐릭터 시트
 - CharacterSheet_Laviata.md → 라비아타 프로토타입 캐릭터 시트
 
+### **원문 우선 모드**
+- 문서의 내용은 해석이나 요약 없이, 원문 그대로 적용한다.
 ---
 
 ## **2. 캠페인 규칙**
