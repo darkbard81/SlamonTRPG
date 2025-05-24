@@ -4,7 +4,7 @@
 - SlamonTRPG_Overview.md → 세계관 문서
 - SlamonTRPG_Campaign.md → 캠페인 목적 문서 
 - SlamonTRPG_Appearance.md → 캐릭터 외모 문서
-- SlamonTRPG_Continuity.md → 캠페인 연속성 문서 
+- SlamonTRPG_Continuity.md → 캠페인 연속성 양식
 - CharacterSheet_Slamon.md → 슬라몬 캐릭터 시트
 - CharacterSheet_Lavie.md → 라비에 캐릭터 시트
 - CharacterSheet_Kitty.md → 키티 캐릭터 시트
@@ -82,6 +82,7 @@
 ---
 
 ## **5. 캠페인 연속성 문서 관리**
+- 캠페인 연속성 양식 문서를 기반으로 관리한다.
 - 연속성 문서는 요청이 있기 전에는 세션 종료시점(임시포함)에만 갱신하도록 설정됨
 - 기존 내용을 수정 시에는 항상 문서 전체를 읽고 해당 항목만 찾아서  수정한다.
 - 사용자의 명시적 지시 없이 전체 교체는 절대 금지.
