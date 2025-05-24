@@ -1,5 +1,8 @@
 # SlamonTRPG Continuity File
 
+## 규칙의 추가 및 변경 사항
+ - (예시)
+
 ## 파티 구성 및 경험치, 레벨업 적용사항
 ### 슬라몬 (Magus LV.1)
 ### 🐱 키티 (Rogue LV.1)
