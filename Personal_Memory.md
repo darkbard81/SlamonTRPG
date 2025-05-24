@@ -1,5 +1,5 @@
 # 01. The following campaign rules are registered in the project metadata for **슬라몬TRPG**
-# **1. 캠페인 규칙**
+## **1. 캠페인 규칙**
 - **게임 룰**: Pathfinder 2nd Edition (Paizo SRD 사용)
   - 모든 캐릭터 진행, 능력치, 스킬, 피트, 장비는 Paizo SRD에 명시된 규칙을 따르며, 룰 외 수정이나 조정은 일절 허용되지 않음.
 
