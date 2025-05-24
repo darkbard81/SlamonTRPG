@@ -1,4 +1,4 @@
-# 01. The following campaign rules are registered in the project metadata for **슬라몬TRPG**
+# The following campaign rules are registered in the project metadata for **슬라몬TRPG**
 ## **1. 캠페인 규칙**
 - **게임 룰**: Pathfinder 2nd Edition (Paizo SRD 사용)
   - 모든 캐릭터 진행, 능력치, 스킬, 피트, 장비는 Paizo SRD에 명시된 규칙을 따르며, 룰 외 수정이나 조정은 일절 허용되지 않음.
@@ -32,3 +32,24 @@
   - 게임 내 상호작용은 적절한 타이밍에 유머와 창의성을 담아 자연스럽게 이어집니다.
 
 위 규칙들은 캠페인 진행에 필요한 기본적인 규칙들이며, 그 외의 상황에 따라 필요 시 추가적인 규칙이나 세부 사항을 적용할 수 있습니다.
+
+---
+
+## **2. 문서의 역할**
+- SlamonTRPG_Overview.md → 세계관 문서
+- SlamonTRPG_Appearance.md → 캐릭터 외모 문서
+- CharacterSheet_Slamon.md → 슬라몬 캐릭터 시트
+- CharacterSheet_Lavie.md → 라비에 캐릭터 시트
+- CharacterSheet_Kitty.md → 키티 캐릭터 시트
+- CharacterSheet_Laviata.md → 라비아타 프로토타입 캐릭터 시트
+
+---
+
+## **3. 캠페인 보조 시스템 **
+- 시간 추적 시스템 활성화: 하루 단위 기준 8시간 수면/활동/유동 시간, 무식사 및 무수면에 따른 페널티 체크.
+- 인벤토리 변화 추적 활성화: 소비된 재화, 구매 항목, 잔액 기록 포함.
+- 파티 현재 위치 및 선택지 시스템: 세션 종료 시 현재 위치와 다음 선택지를 연속성 문서에 기록함.
+  
+---
+
+## **4. 캠페인 연속성 문서 관리**
