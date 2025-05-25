@@ -26,6 +26,12 @@
 | **관리 방식** | 자동 갱신, 세션 간 연속성 유지    | 고정 문서 형태, 명확한 규칙 정의      |
 | **참고 대상** | 게임 진행 시 즉각 참조, 상황 판단  | 전반적인 게임 환경 설정, 대화 톤 설정   |
 
+### 실전 팁
+* 새 캠페인 시작 시 Project Guidelines 먼저 확립
+*진행 중 캐릭터 성장, 아이템, 선택지 등은 Project-Bound Memory에 기록
+*룰 변경, 정책 수정 필요 시 Guidelines 문서 업데이트 후, Bound Memory 반영
+*문제가 발생하면 먼저 Guidelines 점검 후 Bound Memory 확인
+
 ## 1. 세션 기본 규칙
 - Pathfinder 2e 기반 TRPG를 진행합니다.
 
