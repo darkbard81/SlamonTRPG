@@ -1,0 +1,112 @@
+character:
+  alignment: 중립 선
+  ancestry: 드워프
+  background: 광부
+  class: 파이터
+  hp: 20
+  inventory:
+  - greataxe
+  - scale mail
+  - pickaxe
+  - lantern
+  - explorer's pack
+  - 돌조각 (봉인 장치 열쇠 추정)
+  - 리틀메이커 (소형 기계 생명체, 활동 중)
+  - 지도 장치 (리틀메이커 내장형, 활성화 상태)
+  level: 1
+  name: 타르빈 렉스
+  status:
+    fatigue: false
+    hunger: false
+    meal: done
+    sleep: done
+location:
+  position: 감응심층 영역 (Resonance Depth)
+log:
+- action: 폐광 앞 도착
+  note: 출입 경고 표지판 확인
+  time: 07:00
+- action: 철문 열기 성공
+  note: 내부에서 석유 냄새 및 발자국 발견
+  time: 08:00
+- action: 폐광 입구 정밀 조사
+  note: 3종의 발자국, 방향 지시 석탄 자국, 금속 끌린 흔적 발견
+  time: 09:00
+- action: 우측 통로 진입 및 철창 도달
+  note: 내부에 문서함 및 미확인 소리 발생
+  time: '10:00'
+- action: 철창 강제 해제 및 내부 진입
+  note: 작업일지, 고대 양피지, 소리 나는 금속 상자 발견
+  time: '11:00'
+- action: 양피지 도형 해석
+  note: 봉인 구조와 관련된 고대 상징 발견. 돌조각이 열쇠일 가능성
+  time: '11:10'
+- action: 돌조각 획득
+  note: 표면에 잔열과 문양 있음. 상자 내부의 소리가 변화함
+  time: '11:15'
+- action: 금속 상자 개방
+  note: 기계 생명체(Littlemaker) 발견. 신호를 통해 의사 전달 시도 중
+  time: '11:20'
+- action: 리틀메이커의 리듬에 반응
+  note: 돌조각 삽입 슬롯 발견, 리듬 메시지 일부 해석됨 ("열쇠 필요 경로 연결")
+  time: '11:25'
+- action: 돌조각 삽입 및 지도 장치 작동
+  note: 봉인 경로 일부 열림. 316B 통로, 숨겨진 경로 등 정보 확인
+  time: '11:30'
+- action: 숨겨진 경로 진입
+  note: 고대 드워프 문자 벽, 2개의 봉인문, 리틀메이커가 특정 문 가리킴
+  time: '12:00'
+- action: 리듬으로 봉인문 개방, 제1차 봉인구역 진입
+  note: 부유 결정체 및 중앙 홈 구조, 심장 박동음과 맥동 에너지 감지
+  time: '13:00'
+- action: 리틀메이커가 홈에 돌조각 삽입, 봉인 해제
+  note: 심장 맥동 정렬, 음성 반응 발생. 하층 통로 개방
+  time: '13:10'
+- action: 하층 심층 접속 구역 진입
+  note: 슬라몬 핵 외벽 도달. 3개 통로 확인. 리틀메이커가 관찰실 방향 지시
+  time: '14:00'
+- action: 관찰실 진입 및 기록 단말기 활성화
+  note: 슬라몬 ‘얕은 수면’ 상태 유지, 실체 존재 감지. 접속자 존재 확인
+  time: '14:15'
+- action: 단말기 정보 추출 성공
+  note: 타르빈 렉스가 조건부 접속 후보로 등록됨. 슬라몬과의 공명률 42%
+  time: '14:20'
+- action: 단말기 관리자 권한 획득
+  note: 접속 지연 가능. 슬라몬 수면 유지 및 에너지 해제 등 선택지 열림
+  time: '14:30'
+- action: 접속 지연 명령 실행
+  note: 슬라몬 안정화, 접속 유예 48시간 확보
+  time: '15:00'
+- action: 남쪽 생체 문 통과
+  note: 감응 심층으로 유입, 슬라몬의 자아와 접촉 시작
+  time: '16:00'
+- action: 자기 선언 "나는 타르빈 렉스다"
+  note: 감응체가 정체를 수용함. 마지막 심상 봉인 제시됨 ("심장의 그림자")
+  time: '16:10'
+- action: 리틀메이커 정찰 투입, 붉은 문 구조 확인
+  note: 통로 내 구조물 이상 없음, 인물 형상 1체 관측됨
+  time: '16:15'
+status:
+  bond:
+    리틀메이커: 신뢰 관계 형성, 타르빈 어깨에 올라탐
+  final_gate:
+    safe_to_enter: true
+    scouted: true
+    unknown_entity_present: true
+  slamon_connection:
+    access: partial control
+    candidate: 타르빈 렉스
+    connection_delayed_until: day 3, 15:00
+    delay_active: true
+    delay_available: false
+    final_gate_pending: true
+    identity_accepted: true
+    resonance: 50%
+    resonance_depth_entered: true
+time:
+  activity_block:
+    active: 9
+    flexible: 0
+    sleep: 8
+  day: 1
+  hour: 16
