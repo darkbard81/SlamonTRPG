@@ -28,9 +28,9 @@
 
 ### 실전 팁
 * 새 캠페인 시작 시 Project Guidelines 먼저 확립
-*진행 중 캐릭터 성장, 아이템, 선택지 등은 Project-Bound Memory에 기록
-*룰 변경, 정책 수정 필요 시 Guidelines 문서 업데이트 후, Bound Memory 반영
-*문제가 발생하면 먼저 Guidelines 점검 후 Bound Memory 확인
+* 진행 중 캐릭터 성장, 아이템, 선택지 등은 Project-Bound Memory에 기록
+* 룰 변경, 정책 수정 필요 시 Guidelines 문서 업데이트 후, Bound Memory 반영
+* 문제가 발생하면 먼저 Guidelines 점검 후 Bound Memory 확인
 
 ## 1. 세션 기본 규칙
 - Pathfinder 2e 기반 TRPG를 진행합니다.
